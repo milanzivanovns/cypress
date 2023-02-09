@@ -1,0 +1,27 @@
+{
+    "login": {
+        "emailInput" : "#email",
+        "passwordInput" : "#password"
+    },
+
+    "register": {
+        "firstNameInput" : "#first-name",
+        "lastNameInput" : "#last-name",
+        "emailInput" : "#email",
+        "passwordInput" : "#password",
+        "passwordConfirmationInput" : "#password-confirmation",
+        "tosCheckBox" : ":checkbox"
+    },
+
+    "commonFormElements": {
+        "emailInput": "#email",
+        "passwordInput": "#password",
+        "submitButton": "button"
+    },
+
+    "navBar": {
+       "loginButton": "a[href='/login']",
+       "registerButton": ".nav-link"
+    }
+
+}
