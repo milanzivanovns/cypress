@@ -14,7 +14,7 @@ describe("Gallery test", () => {
     // });
 
 
-    //Objekat
+    //Objekat (koji mozemo da koristimo u testovima mesto locatora recimo)
     let userData = {
         firstName: "Milan",
         lastName: "Zivanov",
