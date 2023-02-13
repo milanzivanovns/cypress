@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+///// <reference types="Cypress" />
 
 const locators = require("../fixtures/locators.json");
 

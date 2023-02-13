@@ -1,12 +1,13 @@
-/// <reference types="Cypress" />
+///// <reference types="Cypress" />
 
-import { registerPage } from "../page_objects/registerPage.js";
+import { registerPage } from "../page_objects/registerPagePOM.js";
+import { faker } from '@faker-js/faker';
 
 const credetials = {
-firstName: "Milan",
-lastName: "Zivanov",
-email: "vivifytest@gmail.com",
-password: "12345678"
+firstName: faker.name.firstName(),
+lastName: faker.name.lastName(),
+email: faker.internet.email(),
+password: faker.lorem.word(8) + 1
 
 }
 
